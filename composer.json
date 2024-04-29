@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AlessandroMineo\\formattavaluta\\FormattProvider"
+                "AlessandroMineo\\Formattavaluta\\FormattProvider"
             ]
         }
     },
