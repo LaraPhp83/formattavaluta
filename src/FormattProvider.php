@@ -4,7 +4,7 @@ namespace AlessandroMineo\FormattaValuta;
 
 use Illuminate\Support\ServiceProvider;
 
-class FormatProvider extends ServiceProvider
+class FormattProvider extends ServiceProvider
 {
     /**
      * Register services.
