@@ -10,7 +10,7 @@ Per installare il pacchetto, esegui il seguente comando Composer:
 
 ## Uso
 
-Ci sono due helper globali disponibili:
+Ci sono due metodi helper globali disponibili:
 * formattaImporto()
 * deformattaImporto()
 
