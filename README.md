@@ -18,5 +18,5 @@ formattaImporto(1200);
 // echo € 1.200,00
 
 deformattaImporto('€ 1.200,00');  
-// echo € 1200.00
+// echo  1200.00
 
