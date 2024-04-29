@@ -1,0 +1,29 @@
+{
+    "name": "alessandro.mineo/formattavaluta",
+    "email": "alex2900@hotmail.it",
+    "autoload": {
+        "psr-4": {
+            "AlessandroMineo\\Formattavaluta\\": "src/"
+        },
+        
+        "files": [
+            "src/helper/Utils-formattazione.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "DevPHplaravel",
+            "email": "agendabet5@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlessandroMineo\\formattavaluta\\FormattProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "version": "1.0.0"
+}
