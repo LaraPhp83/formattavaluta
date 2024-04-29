@@ -6,4 +6,4 @@ Formattavaluta è un pacchetto Laravel che fornisce funzionalità di formattazio
 
 Per installare il pacchetto, esegui il seguente comando Composer:
 
-composer require alessandro.mineo/formattavaluta
+`composer require alessandro.mineo/formattavaluta`
