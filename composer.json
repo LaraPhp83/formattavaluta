@@ -16,7 +16,7 @@
             "email": "agendabet5@gmail.com"
         }
     ],
-    "minimum-stability": "alpha",
+    "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [

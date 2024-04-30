@@ -1,10 +1,10 @@
 <?php
 
 if (!function_exists('deformattaImporto')) {
-    function deformattaImporto($rata)
+    function deformattaImporto($importo)
     {
         //tolgo il simbolo dell'euro e lo spazio
-        $importoSenzaEuro = trim(str_replace('€', '', $rata));
+        $importoSenzaEuro = trim(str_replace('€', '', $importo));
 
         //Dove c'è la virgola metto il punto e dove c'è il punto lo tolgo
         $importoFormatted = str_replace(",", ".", str_replace(".", "", $importoSenzaEuro));
