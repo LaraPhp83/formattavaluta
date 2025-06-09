@@ -1,11 +1,12 @@
 {
     "name": "alessandro.mineo/formattavaluta",
-    "email": "alex2900@hotmail.it",
+    "description": "Pacchetto helper per formattare valute in Laravel",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "AlessandroMineo\\Formattavaluta\\": "src/"
         },
-        
         "files": [
             "src/helper/Utils-formattazione.php"
         ]
@@ -16,13 +17,13 @@
             "email": "agendabet5@gmail.com"
         }
     ],
-     "minimum-stability": "dev",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
         "laravel": {
             "providers": [
                 "AlessandroMineo\\Formattavaluta\\FormattProvider"
             ]
         }
-    },
-    "license": "MIT" 
+    }
 }
