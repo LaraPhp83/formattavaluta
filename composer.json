@@ -7,7 +7,7 @@
         "psr-4": {
             "AlessandroMineo\\Formattavaluta\\": "src/"
         },
-    },
+    }
     "authors": [
         {
             "name": "DevPHplaravel",
